@@ -1,6 +1,28 @@
+
 nav
 {
-    background-color: darkcyan;
+    background-color: #1FCECB;
+
+}
+#Tnav
+{
+    width: 100%;
+    text-align: center;
+}
+#Pnav
+{
+    font-size: 14pt;
+    font-family:serif;
+    width: 20%;
+}
+#Pnav:hover
+{
+    background-color: #BDE6FA;
+}
+a
+{
+    color: #36211B;
+    text-decoration: none;
 }
 #first
 {
@@ -48,5 +70,29 @@ textarea
 }
 header
 {
-    background-color: #1FCECB;
+    background-color: #BDE7FA;
+
+}
+footer
+{
+    text-align: center;
+}
+h3
+{
+    font-weight: 100;
+    color: #36211B;
+    margin-bottom: -10pt;
+    font-size: 12pt;
+}
+h1
+{
+    text-align: center;
+    color: #36211B;
+    font-size: 25pt;
+    font-weight: 300;
+}
+input
+{
+    margin-bottom: 5px;
+    margin-top: 5px;
 }
