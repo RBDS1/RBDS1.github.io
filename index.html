@@ -37,31 +37,49 @@
             Секция 2
         </section>
         <h2>Резюме</h2>
-        <input type="text" placeholder="Фамилия">
-        <input type="text">
-        <input type="text">
-        <input type="password">
+        
         <br>
-        <input type="radio" name="a">1<br>
-        <input type="radio" name="a">2<br>
-        <input type="radio" name="a">3<br>
-        <input type="radio" name="a">4<br>
-        <input type="checkbox">1<br>
-        <input type="checkbox">2<br>
-        <textarea></textarea>
+        
+        
+        
         <input type="submit" value="Отправить">
-        <table border="1">
+        <table>
             <caption>Потертикова</caption>
             <tbody>
                 <tr>
-                    <td rowspan="2">
-                        <select>                          
+                    <td id="first">
+                        Выберите значение
+                       <select>                          
                             <option value="" style="display:none">please select</option>          
                             <option>"1"</option>
                             <option>"2"</option>
                             <option>"3"</option>
                             <option>"4"</option>
                         </select>
+                    </td>
+                    <td id="second">
+                         Выберите значение <br>  
+                        <input type="radio" name="a">1<br>
+                        <input type="radio" name="a">2<br>
+                        <input type="radio" name="a">3<br>
+                        <input type="radio" name="a">4<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="third">
+                        <input type="text" placeholder="Фамилия"><br><br>
+                        <input type="text"><br><br>
+                        <input type="text"><br><br>
+                        <input type="password">
+                    </td>
+                    <td id="fourth">
+                        <input type="checkbox">1<br>
+                        <input type="checkbox">2<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" id="fifth">
+                        <textarea></textarea>
                     </td>
                 </tr>
             </tbody>
