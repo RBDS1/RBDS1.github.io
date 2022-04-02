@@ -1,7 +1,6 @@
 nav
 {
     background-color: darkcyan;
-    
 }
 #first
 {
@@ -11,23 +10,43 @@ nav
    text-align: center;
 
 }
-#second
-{
-    background-color: #D3F0FD;
-    text-align: center;
-}
+
 table
 {
-    width: 100%;
+    width: 80%;
 }
-#third
+#second
 {
     text-align: center;    
     background-color: #D3F0FD;
     height: 200px;
+    vertical-align:sub;
+
 }
-#fourth
+
+#third
 {
     text-align: center;    
-    background-color:#E5F7FF;    
+    background-color: #E5F7FF;
+    height: 200px;
+
+}
+h2
+{
+color: #36211B;
+font-weight: 300;
+
+}
+main
+{
+    background-color: #F4FBFA;
+}
+textarea
+{
+    width: 80%;
+    height: 50%;
+}
+header
+{
+    background-color: #1FCECB;
 }

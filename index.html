@@ -11,18 +11,22 @@
 </head>
 <body>
     <header>
-        <img src="" alt="" width="100" height="100">
+        
         <h1>ПТИ</h1>
         <nav>
-            <ol>
-                <li>
-                    <a href="index.html">Главная</a>
-    
-                </li>
-                <li>
-                    <a href="test.html">Резюме</a>
-                </li>     
-            </ol>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <a href="index.html">Главная</a>
+                        </td>
+                        <td>
+                            <a href="test.html">Резюме</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            
         </nav>
     </header>    
     <main>
@@ -42,13 +46,12 @@
         
         
         
-        <input type="submit" value="Отправить">
-        <table>
+        <table align="center">
             <caption>Потертикова</caption>
             <tbody>
-                <tr>
+                <tr>                    
                     <td id="first">
-                        Выберите значение
+                        <h2>Выберите значение</h2>
                        <select>                          
                             <option value="" style="display:none">please select</option>          
                             <option>"1"</option>
@@ -57,8 +60,8 @@
                             <option>"4"</option>
                         </select>
                     </td>
-                    <td id="second">
-                         Выберите значение <br>  
+                    <td id="first">
+                        <h2>Выберите значение</h2> <br>  
                         <input type="radio" name="a">1<br>
                         <input type="radio" name="a">2<br>
                         <input type="radio" name="a">3<br>
@@ -66,20 +69,21 @@
                     </td>
                 </tr>
                 <tr>
-                    <td id="third">
+                    <td id="second">
                         <input type="text" placeholder="Фамилия"><br><br>
                         <input type="text"><br><br>
                         <input type="text"><br><br>
                         <input type="password">
                     </td>
-                    <td id="fourth">
+                    <td id="second">
                         <input type="checkbox">1<br>
                         <input type="checkbox">2<br>
                     </td>
                 </tr>
                 <tr>
-                    <td colspan="2" id="fifth">
-                        <textarea></textarea>
+                    <td colspan="2" id="third">
+                        <textarea></textarea><br>
+                        <input type="submit" value="Отправить">
                     </td>
                 </tr>
             </tbody>
