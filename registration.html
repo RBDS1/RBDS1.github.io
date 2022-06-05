@@ -2,7 +2,7 @@
 <html>
 <head>
 <title>
-<!--Заголовок вкладки в браузере-->
+Регистрация на конференцию
 </title>
 <meta charset="UTP-8">
 <meta name="description" content="Описание содержимого страницы">
@@ -41,40 +41,45 @@
         <h1>Регистрация на конференцию</h1>     
         <table align="center">
             <tbody>
-                <tr>                    
+                <tr>  
+                    <td id="second">
+                        <h2>Данные участника</h2>
+                        <input type="text" placeholder="Фамилия" required pattern="[а-яА-Я]+" title="Фамилия должна быть написана русскими буквами"><br>
+                        <input type="text" placeholder="Имя"><br>
+                        <input type="text" placeholder="Отчество"><br>
+                        <input type="date" placeholder="Дата рождения"><br>
+                        <input type="radio" name="a">Мужской
+                        <input type="radio" name="a">Женский<br>
+                    </td>                  
+                    
                     <td id="first">
-                        <h2>Выберите значение</h2>
+                        <h2>Контактные данные</h2>
+                        <input type="tel" placeholder="Контактный номер"><br>
+                        <input type="email" placeholder="Email"><br>
+                        <input type="text" placeholder="Дополнительные данные"><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td id="first">
+                        <h2>Направление</h2>
                        <select>                          
-                            <option value="" style="display:none">please select</option>          
-                            <option>"1"</option>
-                            <option>"2"</option>
-                            <option>"3"</option>
-                            <option>"4"</option>
-                        </select>
-                    </td>
-                    <td id="first">
-                        <h2>Выберите значение</h2> <br>  
-                        <input type="radio" name="a">1<br>
-                        <input type="radio" name="a">2<br>
-                        <input type="radio" name="a">3<br>
-                        <input type="radio" name="a">4<br>
-                    </td>
-                </tr>
-                <tr>
-                    <td id="second">
-                        <input type="text" placeholder="ФИО"><br>
-                        <input type="text" placeholder="Контактный номер"><br>
-                        <input type="text"><br>
-                        <input type="password">
+                            <option value="" style="display:none">Выберите</option>          
+                            <option>Математика</option>
+                            <option>Физика</option>
+                            <option>Химия</option>
+                            <option>Биология</option>
+                            <option>Информатика</option>
+                            <option>География</option>
+                        </select><br><br>
+                        <input type="checkbox">Доклад<br>
                     </td>
                     <td id="second">
-                        <input type="checkbox">1<br>
-                        <input type="checkbox">2<br>
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="2" id="third">
+                        <h2>Тема доклада</h2> <br>  
                         <textarea></textarea><br>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" id="third">                        
                         <input type="submit" value="Отправить">
                     </td>
                 </tr>

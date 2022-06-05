@@ -30,9 +30,26 @@ a
    width: 50%;
    height: 200px;
    text-align: center;
-
+   vertical-align:sub;
 }
-
+input
+{
+    border-color: black;
+    border-width: 1px; 
+}
+input:valid
+{
+    border-color: green;
+}
+input:invalid
+{
+    border-color: red;
+}
+input:not(:focus):invalid
+{
+    border-color: black;
+    border-width: 1px;    
+}
 table
 {
     width: 80%;
